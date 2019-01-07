@@ -1,0 +1,19 @@
+{
+  "name": "rollup_vue",
+  "sideEffects": false,
+  "version": "1.0.0",
+  "module": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build -w"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
